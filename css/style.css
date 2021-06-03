@@ -8,42 +8,42 @@
 
 @font-face {
   font-family: 'font1';
-  src: url("../fonts/Tipografia1Multimedia-Regular.ttf") format("truetype");
+  src: url("../LudereAude/fonts/Tipografia1Multimedia-Regular.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'font2';
-  src: url("../fonts/Tipografia2Multimedia-Regular.ttf") format("truetype");
+  src: url("../LudereAude/fonts/Tipografia2Multimedia-Regular.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'font3';
-  src: url("../fonts/Tipografia3Multimedia-Regular.ttf");
+  src: url("../LudereAude/fonts/Tipografia3Multimedia-Regular.ttf");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Chomsky';
-  src: url("../fonts/Chomsky.otf") format("truetype");
+  src: url("../LudereAude/fonts/Chomsky.otf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Deutsch';
-  src: url("../fonts/Deutsch.ttf") format("truetype");
+  src: url("../LudereAude/fonts/Deutsch.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Augusta';
-  src: url("../fonts/augusta/Augusta.ttf") format("truetype");
+  src: url("../LudereAude/fonts/augusta/Augusta.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
