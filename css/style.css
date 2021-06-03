@@ -1,16 +1,54 @@
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
+@font-face {
+  font-family: 'font1';
+  src: url("../fonts/Tipografia1Multimedia-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font2';
+  src: url("../fonts/Tipografia2Multimedia-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font3';
+  src: url("../fonts/Tipografia3Multimedia-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chomsky';
+  src: url("../fonts/Chomsky.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Deutsch';
+  src: url("../fonts/Deutsch.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Augusta';
+  src: url("../fonts/augusta/Augusta.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 body {
   font-family: "Prata", serif;
   font-weight: 300;
@@ -1270,6 +1308,10 @@ img {
   border: 2px solid #d73930;
 }
 
+/*
+Código añadido por los alumnos
+*/
+
 .col-md-5{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.02em;
@@ -1284,10 +1326,6 @@ img {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 5em;
 }
-
-/*
-Código añadido por los alumnos
-*/
 
 .logo-ludere {
 	width: 2.3em;
@@ -1304,6 +1342,7 @@ Código añadido por los alumnos
 }
 
 .video-text {
+  font-family: font1;
 	padding: 3em;
 	position: relative;
 	text-align: center;
@@ -1319,6 +1358,7 @@ Código añadido por los alumnos
 }
 
 .audio-text {
+  font-family: font1;
 	text-transform: uppercase;
 	padding: 3em;
 	display: block;
@@ -1329,4 +1369,34 @@ Código añadido por los alumnos
 .twitter {
 	width: 2em;
 	margin: auto;
+}
+
+.history {
+  font-size: 6em;
+  font-family: font1;
+}
+
+.gameplay {
+  font-size: 6em;
+  font-family: font2;
+}
+
+.descripcion {
+  font-size: 6em;
+  font-family: font3;
+}
+
+.contributions {
+  font-size: 6em;
+  font-family: Chomsky;
+}
+
+.objetives {
+  font-family: Deutsch;
+  font-size: 6em;
+}
+
+.team_text {
+  font-family: Augusta;
+  font-size: 4em;
 }
