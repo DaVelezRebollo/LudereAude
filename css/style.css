@@ -1377,12 +1377,12 @@ Código añadido por los alumnos
 }
 
 .gameplay {
-  font-size: 6em;
+  font-size: 5em;
   font-family: font2;
 }
 
 .descripcion {
-  font-size: 6em;
+  font-size: 4em;
   font-family: font3;
 }
 
@@ -1399,4 +1399,8 @@ Código añadido por los alumnos
 .team_text {
   font-family: Augusta;
   font-size: 4em;
+}
+.faq {
+  font-family: Deutsch;
+  font-size: 6em;
 }
